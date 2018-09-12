@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+
+\begin{document}
+Escribe la solución de la ecuacion en diferencias $x_{n+2}-4x_n=0$ con condiciones iniciales $x_0=1$ $x_1=-1$.
+
+Solución:
+
+Observemos que la ecuación resolvente es:$r^2-4=0$. Entonces se puede factorizar como $(r-2)(r+2)$, por lo cual las raíces son: $r_1=2$ $r_2=-2$
+Es decir $X_n=a(2)^n+b(-2)^n$
+
+Pero para que la solución safisfaga las condiciones iniciales:
+
+$x_0=a+b=1$
+
+$x_1=2a-2b=-1$
+
+Entonces resolviendo el sistema de ecuaciones $a=\frac{1}{4}$ $b=\frac{3}{4}$
+
+\end{document}
